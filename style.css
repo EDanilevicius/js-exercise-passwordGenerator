@@ -1,0 +1,30 @@
+body{
+    background-image: url(./linux-terminal-commands.jpg.png);
+    background-size: cover;
+    height: 100vh;
+}
+button{
+    margin: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#input_form{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#output_div{
+    margin-top: 20px;
+    min-height: 50px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h5{
+    margin-top: 0.5rem;
+}

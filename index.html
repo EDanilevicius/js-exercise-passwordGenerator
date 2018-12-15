@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="./password.png" alt="Password Logo" width="200">
+
+        <div class="col text-light mx-auto" id="input_form">
+
+            <h5>Service name:</h5>
+            <input type="text" value="" placeholder="enter name" name="service_name"><br>
+            <h5>Basic password:</h5>
+            <input type="text" placeholder="enter password" name="psw">
+            <br>
+            <button type="button" class="btn btn-outline-primary" name="submit">Submit</button>
+            <button type="button" class="btn btn-outline-light" name="clear">Clear</button>
+        </div>
+        <div class="col border rounded border-primary mx-auto text-light text-center font-weight-bold text-capitalize" id="output_div"></div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</html>
